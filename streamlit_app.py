@@ -18,7 +18,7 @@ if data_source == "Upload your own CSV":
         df = pd.read_csv(uploaded_file)
 else:
     # Replace with your actual GitHub raw file link
-    SAMPLE_CSV_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/zomato-data-analysis/main/uploaded_data.csv"
+    SAMPLE_CSV_URL = "https://raw.githubusercontent.com/PoojaJogdand4511/zomato-data-analysis-project/main/uploaded_data.csv"
     try:
         df = pd.read_csv(SAMPLE_CSV_URL)
         st.success("✅ Sample Zomato dataset loaded!")
